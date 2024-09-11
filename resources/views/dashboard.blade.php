@@ -92,7 +92,7 @@
                 {{$item->p_price}}
             </td>
             <td>
-                <a class="button button3" href="{{route('editprog',$item->id)}}">update</a>
+                <a class="button button3" href="{{route('editpro',$item->id)}}">update</a>
                 <a class="button button3" href="{{route('delete',$item->id)}}">delete</a>
             </td>
         </tr>
